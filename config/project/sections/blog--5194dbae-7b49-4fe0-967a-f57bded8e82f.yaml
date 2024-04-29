@@ -1,0 +1,30 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - e18eb04b-759e-41cb-a454-42138a30c16d # blogposttest
+handle: blog
+maxAuthors: 1
+name: Blog
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  30150ce9-3e49-4ef5-a72c-62c684180f6e: # WebExpert-Craft
+    enabledByDefault: true
+    hasUrls: true
+    template: blog/_entry
+    uriFormat: 'blog/{slug}'
+structure:
+  maxLevels: null
+  uid: 6778af77-7849-4581-8a63-10512a12c7ad
+type: structure

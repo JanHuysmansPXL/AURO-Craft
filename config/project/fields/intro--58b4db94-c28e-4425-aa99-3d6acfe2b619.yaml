@@ -1,0 +1,16 @@
+columnSuffix: null
+handle: intro
+instructions: "This is the intro.\r\n-- Add a short introduction text here for this page."
+name: Intro
+searchable: true
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  initialRows: 4
+  multiline: true
+  placeholder: null
+  uiMode: enlarged
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

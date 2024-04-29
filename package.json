@@ -1,0 +1,16 @@
+{
+  "name": "craft-project-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "sass --watch web/frontend/scss/main.scss:web/frontend/css/main.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.75.0"
+  }
+}

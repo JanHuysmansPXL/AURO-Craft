@@ -1,0 +1,110 @@
+color: red
+fieldLayouts:
+  073a038a-61a8-45f2-b436-f3beafb8d3d9:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 21010960-2f0a-4e27-b671-5ba471310ff1
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: beb3fdc0-71d2-47a1-9e92-c6c0a0fd01ed # Titel
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0cb30b4a-3841-418c-8856-ea680bb04022
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: beb3fdc0-71d2-47a1-9e92-c6c0a0fd01ed # Titel
+            handle: pageTitle2
+            includeInCards: false
+            instructions: null
+            label: Ondertitel
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 72d7ee56-dc44-4879-a506-665a7d450161
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: ca6b0345-14c9-4d36-8a96-ff70fb2cad05 # Hero Afbeelding
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6f12157a-e134-4f12-b768-97a5ed2eeed6
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 58b4db94-c28e-4425-aa99-3d6acfe2b619 # Intro
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0048490d-ab9d-44b3-bb8e-3dcbbb2c429f
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 8c29527c-e121-4fbc-b7fa-fefe521b229f
+        userCondition: null
+handle: startpagina
+hasTitleField: false
+icon: house
+name: startpagina
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: '{{"Startpagina"}}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
