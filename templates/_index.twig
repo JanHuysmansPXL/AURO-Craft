@@ -16,7 +16,7 @@
     {# AFBEELDING URL INSTELLEN ALS VARIABLE OM VERKORT TE NOTEREN ALS HEROIMAGE.URL #}
     {% set heroImage = entry.heroImage.one() %}
 
-    <img src="{{ heroImage.url }}" alt="{{heroImage.title}}">
+    <img src="{{ heroImage.url }}" alt="{{ heroImage.title }}">
 </body>
 </html>
 
