@@ -18,7 +18,7 @@
 }
 
 .bg-primary {
-  background-color: #333;
+  background-color: hotpink;
 }
 
 .bg-secondary {
@@ -47,7 +47,7 @@
 }
 
 .txt-primary {
-  color: #333;
+  color: hotpink;
 }
 
 .txt-secondary {
@@ -330,7 +330,7 @@
 }
 .navbar .navbar-links .navbar-list .navbar-listitem {
   list-style-type: none;
-  color: #333;
+  color: hotpink;
   display: inline;
 }
 .navbar .navbar-links .navbar-list .navbar-listitem .login-button {
@@ -655,7 +655,7 @@
   display: block;
   width: 150px;
   padding: 10px 0;
-  color: #333;
+  color: hotpink;
   text-decoration: none;
   text-align: center;
   background-color: #FFFFFF;
@@ -891,6 +891,21 @@
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+}
+
+.bg-image {
+  width: 100%;
+  margin-top: rem;
+  height: 60vh;
+  object-fit: cover;
+  z-index: -2;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media (min-width: 320px) and (max-width: 768px) {

@@ -1,0 +1,19 @@
+{# DIT IS EEN TEMPLATE -- HEAD EN BODY STEKEN IN DE INDEX-TWIG #}
+{% extends "_index" %}
+
+{% block content %}
+{# DIT IS HET BEGIN VAN DE BLOCK #}
+
+ <section class="container-fluid p-md mt-xl">
+    <h1 class="txt-title_sm">{{entry.pageTitle}}</h1>
+    <h3 class="txt-body_md">{{entry.pageTitle2}}</p>
+    <p>{{entry.intro}}</p>
+
+    {# AFBEELDING URL INSTELLEN ALS VARIABLE OM VERKORT TE NOTEREN ALS HEROIMAGE.URL #}
+    {% set heroImage = entry.heroImage.one() %}
+
+    <img class=".home-transition" src="{{ heroImage.url }}" alt="{{ heroImage.title }}">
+    <div class=".home-transition">sqqs</div>
+</section>
+
+{% endblock %}

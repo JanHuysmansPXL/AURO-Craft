@@ -129,6 +129,15 @@
   }
 }
 
+.bg-image {
+  width: 100%;
+  margin-top: rem;
+  height: 60vh;
+  object-fit: cover;
+  z-index: -2;
+  @include positionFromTop(80%);
+  @include flexlayout();
+}
 
 
 @media (min-width: $screen-xs) and (max-width: $screen-md) {

@@ -22,6 +22,6 @@ siteSettings:
   30150ce9-3e49-4ef5-a72c-62c684180f6e: # WebExpert-Craft
     enabledByDefault: true
     hasUrls: true
-    template: _index.twig
+    template: home-page.twig
     uriFormat: __home__
 type: single
