@@ -6,7 +6,7 @@
     <title>Welcome to Craft CMS</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
     <meta name="referrer" content="origin-when-cross-origin" />
-    
+
     <!-- Link voor icons -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <!-- Link voor Google Fonts - RED HAT DISPLAY -->
@@ -19,10 +19,24 @@
 </head>
 <body class="bg-darkest ps-md mt-md">
 
+    <nav class="navbar bg-darkest container-fluid">
+        <!-- <div class="navbar-brand"><img class="navbar-logo" src="assets/favicon.png" alt="Logo Placeholder"></div> -->
+        <div class="navbar-brand"><a class="brand-link" href="#">AURO</a></div>
+        <div class="navbar-links">
+            <ul class="navbar-list">
+                <li class="navbar-listitem"><a href="#" class="navbar-link">Products</a></li>
+                <li class="navbar-listitem"><a href="#" class="navbar-link">Cart</a></li>
+                <li class="navbar-listitem"><a href="#" class="login-button"><i class="fas fa-user-circle"></i> Login</a></li>
+            </ul>
+        </div>
+    </nav>
+
 {% block content %}
     {# TEMPLATES WORDEN HIER INGEVOEGD. #}
 {% endblock %}
 
+
+    {# FIXED FOOTER. #}
     <footer class="footer bg-darkest">
     <div class="footer-header">
         <div>

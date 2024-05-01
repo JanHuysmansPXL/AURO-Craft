@@ -1,4 +1,4 @@
-dateModified: 1714522736
+dateModified: 1714563556
 email:
   fromEmail: 12201074@student.pxl.be
   fromName: WebExpert-Craft
@@ -11,6 +11,13 @@ fs:
       path: '@webroot/files'
     type: craft\fs\Local
     url: /files
+  video:
+    hasUrls: true
+    name: Video
+    settings:
+      path: web/uploads
+    type: craft\fs\Local
+    url: '@webroot/uploads'
 meta:
   __names__:
     9d3c309c-cbb1-484c-aa76-6c735b16d4ab: 'Public Schema' # Public Schema

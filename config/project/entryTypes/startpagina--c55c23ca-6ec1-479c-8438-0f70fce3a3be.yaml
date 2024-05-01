@@ -94,8 +94,59 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
-        name: Content
+        name: 'Hero Section'
         uid: 8c29527c-e121-4fbc-b7fa-fefe521b229f
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: beb3fdc0-71d2-47a1-9e92-c6c0a0fd01ed # Titel
+            handle: pageTitle3
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 22739534-4086-4c5f-80b4-8dffad3c0937
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: ff53dd1b-b693-4840-93bb-83c470eea8f8 # Subtitle
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 17b30490-3b87-4158-a261-8e528b82c667
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 9e6c42b3-24b7-4f14-aae1-0221bff9b1fe # textfield
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 822a27b1-5720-4c5a-9848-1e1602fd2cca
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Home - Copy section'
+        uid: 4826500a-7311-4bcb-bcac-c30e71418c6c
         userCondition: null
 handle: startpagina
 hasTitleField: false

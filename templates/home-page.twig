@@ -4,16 +4,37 @@
 {% block content %}
 {# DIT IS HET BEGIN VAN DE BLOCK #}
 
- <section class="container-fluid p-md mt-xl">
-    <h1 class="txt-title_sm">{{entry.pageTitle}}</h1>
-    <h3 class="txt-body_md">{{entry.pageTitle2}}</p>
-    <p>{{entry.intro}}</p>
+{# AFBEELDING URL INSTELLEN ALS VARIABLE OM VERKORT TE NOTEREN ALS HEROIMAGE.URL #}
+{% set heroImage = entry.heroImage.one() %}
 
-    {# AFBEELDING URL INSTELLEN ALS VARIABLE OM VERKORT TE NOTEREN ALS HEROIMAGE.URL #}
-    {% set heroImage = entry.heroImage.one() %}
+ {# 
+    <section class="container-fluid p-md mt-xl">
+        <h1 class="txt-title_sm">{{entry.pageTitle}}</h1>
+        <h3 class="txt-body_md">{{entry.pageTitle2}}</p>
+        <p>{{entry.intro}}</p>
+        ++ AFBEELDING ->  <img class="home-transition" src="{{ heroImage.url }}" alt="{{ heroImage.title }}">
+    </section>
+#}
+<div class="container-fluid">
+    <section class="showcase">
+        <img class="img-bkg" src={{ heroImage.url }} alt={{ heroImage.title }}>
+        {# <video class="video-bkg" src="assets/media/auro_vid2.mp4" muted loop autoplay></video> #}
+        <div class="overlay">
+            <div class="showcase-text">
+                <h2 class="txt-heading_xl" >{{entry.pageTitle}}</h2>
+                <p class="txt-body_md">{{entry.pageTitle2}}</p>
+                <a class="showcase-button" href="products.html">Explore</a>
+            </div>
+        </div>
+    </section>
+</div>
 
-    <img class=".home-transition" src="{{ heroImage.url }}" alt="{{ heroImage.title }}">
-    <div class=".home-transition">sqqs</div>
-</section>
+<!-- TRANSITION-PIECE MET BODYTEXT  -->
+    <section class="home-transition">
+        <h1 class="txt-subheader">{{entry.pageTitle3}}</h1>
+        <h3 class="txt_body_xl">{{entry.subtitle}}</h3>
+        <h3 class="txt_body_xl">{{entry.textfield}}</h3>
+    </section>
+
 
 {% endblock %}
