@@ -1,0 +1,30 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - bc2570ed-b0f4-4d10-8731-8c5672050ea3 # Product-Card-Test
+handle: productOverview
+maxAuthors: 1
+name: Product-overview
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  30150ce9-3e49-4ef5-a72c-62c684180f6e: # WebExpert-Craft
+    enabledByDefault: true
+    hasUrls: true
+    template: product-overview/_entry
+    uriFormat: 'product-overview/{slug}'
+structure:
+  maxLevels: null
+  uid: f6da26e7-8b39-4c79-ac5d-a5e37dc0ab20
+type: structure

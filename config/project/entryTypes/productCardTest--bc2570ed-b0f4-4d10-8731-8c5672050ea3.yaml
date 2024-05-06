@@ -1,0 +1,95 @@
+color: indigo
+fieldLayouts:
+  ba201ee8-7ac2-44e3-bf04-eadcb5433c23:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 53820fc2-4b74-4dcb-a5a6-3ac4ef87c8ac
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 9e6c42b3-24b7-4f14-aae1-0221bff9b1fe # textfield
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: description
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7a384d03-3919-4eff-9868-cb5c78d5e020
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 9e6c42b3-24b7-4f14-aae1-0221bff9b1fe # textfield
+            handle: price
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ffc805e1-53e8-4ade-9c71-cc53e4c35c0b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 498ef8e8-ab5a-49e8-b3a2-dc96897059e6 # imagetest
+            handle: productImage
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3bb64467-1839-4ed3-8306-3ae541cae36d
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: c71a6815-968e-4879-b6b0-20cd267cac8c
+        userCondition: null
+handle: productCardTest
+hasTitleField: true
+icon: album
+name: Product-Card-Test
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
