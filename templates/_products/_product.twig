@@ -1,0 +1,21 @@
+{# DIT IS EEN TEMPLATE -- HEAD EN BODY STEKEN IN DE INDEX-TWIG #}
+{% extends "_index" %}
+
+
+{% block content %}
+{% include "_snippets/_navbar" %}
+{# DIT IS HET BEGIN VAN DE BLOCK #}
+
+{# AFBEELDING URL INSTELLEN ALS VARIABLE OM VERKORT TE NOTEREN ALS HEROIMAGE.URL #}
+{% set heroImage = entry.heroImage.one() %}
+
+<div class="card">
+    <div class="card-overlay">
+        <h1 class="card-overlay-heading">{{ entry.title}}</h1>
+        <p class="card-overlay-paragraph">{{ entry.price}}</p>
+        <a type="button" class="card-overlay-button" href="product_detail.html">Order now</a>
+    </div>
+    <img class="card-image" src="assets/images/gallery_3.png" alt="AuroPods - Nubis">
+</div>         
+
+{% endblock %}

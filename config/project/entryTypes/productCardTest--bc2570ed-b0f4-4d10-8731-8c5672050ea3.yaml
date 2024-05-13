@@ -36,7 +36,7 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 9e6c42b3-24b7-4f14-aae1-0221bff9b1fe # textfield
+            fieldUid: 9e6c42b3-24b7-4f14-aae1-0221bff9b1fe # Description
             handle: null
             includeInCards: false
             instructions: null
@@ -51,7 +51,7 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 9e6c42b3-24b7-4f14-aae1-0221bff9b1fe # textfield
+            fieldUid: 0536712c-eb82-4822-8a20-64c016cca512 # Price
             handle: price
             includeInCards: false
             instructions: null
@@ -60,7 +60,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: ffc805e1-53e8-4ade-9c71-cc53e4c35c0b
+            uid: b6fd712c-c79e-4f24-b042-853394bc64b4
             userCondition: null
             warning: null
             width: 100

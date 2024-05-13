@@ -44,7 +44,7 @@ fieldLayouts:
             userCondition: null
           -
             elementCondition: null
-            fieldUid: 9e6c42b3-24b7-4f14-aae1-0221bff9b1fe # textfield
+            fieldUid: 9e6c42b3-24b7-4f14-aae1-0221bff9b1fe # Description
             handle: null
             includeInCards: false
             instructions: null

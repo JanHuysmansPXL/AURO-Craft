@@ -1,7 +1,7 @@
 columnSuffix: null
-handle: textfield
+handle: description
 instructions: 'Add body text here.'
-name: textfield
+name: Description
 searchable: false
 settings:
   byteLimit: null

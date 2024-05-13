@@ -1,7 +1,9 @@
 {# DIT IS EEN TEMPLATE -- HEAD EN BODY STEKEN IN DE INDEX-TWIG #}
 {% extends "_index" %}
 
+
 {% block content %}
+{% include "_snippets/_navbar" %}
 {# DIT IS HET BEGIN VAN DE BLOCK #}
 
 {# AFBEELDING URL INSTELLEN ALS VARIABLE OM VERKORT TE NOTEREN ALS HEROIMAGE.URL #}
@@ -15,6 +17,7 @@
         ++ AFBEELDING ->  <img class="home-transition" src="{{ heroImage.url }}" alt="{{ heroImage.title }}">
     </section>
 #}
+
 <div class="container-fluid">
     <section class="showcase">
         <img class="img-bkg" src={{ heroImage.url }} alt={{ heroImage.title }}>
@@ -33,7 +36,7 @@
     <section class="home-transition">
         <h1 class="txt-subheader">{{entry.pageTitle3}}</h1>
         <h3 class="txt_body_xl">{{entry.subtitle}}</h3>
-        <h3 class="txt_body_xl">{{entry.textfield}}</h3>
+    
     </section>
 
 

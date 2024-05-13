@@ -2,9 +2,9 @@ defaultPlacement: end
 enableVersioning: true
 entryTypes:
   - bc2570ed-b0f4-4d10-8731-8c5672050ea3 # Product-Card-Test
-handle: productOverview
+handle: products
 maxAuthors: 1
-name: Product-overview
+name: Products
 previewTargets:
   -
     __assoc__:
@@ -22,8 +22,8 @@ siteSettings:
   30150ce9-3e49-4ef5-a72c-62c684180f6e: # WebExpert-Craft
     enabledByDefault: true
     hasUrls: true
-    template: product-overview/_entry
-    uriFormat: 'product-overview/{slug}'
+    template: _products/_product.twig
+    uriFormat: 'products/{slug}'
 structure:
   maxLevels: null
   uid: f6da26e7-8b39-4c79-ac5d-a5e37dc0ab20
