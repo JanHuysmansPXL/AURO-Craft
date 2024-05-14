@@ -55,7 +55,8 @@
 Filteren producten via order by / limt:
 {% set products = craft.entries.section('productOverview').orderBy('price DESC').limit(3).all() %}
 
-#}
+
+
 
 {% set products = craft.entries.section('products').all() %}
 
@@ -66,6 +67,8 @@ Filteren producten via order by / limt:
             {% endfor %}
     </section>
 {% endif %}
+
+#}
 
 </body>
 </html>

@@ -35,14 +35,6 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            dismissible: false
-            elementCondition: null
-            style: warning
-            tip: ''
-            type: craft\fieldlayoutelements\Tip
-            uid: 37512de1-0223-4d6b-927e-76484a40cef0
-            userCondition: null
-          -
             elementCondition: null
             fieldUid: 9e6c42b3-24b7-4f14-aae1-0221bff9b1fe # Description
             handle: null

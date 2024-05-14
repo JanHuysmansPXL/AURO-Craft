@@ -1,0 +1,49 @@
+{% extends "_index.twig" %}
+
+{% set products = craft.entries.section('products').all() %}
+
+{# Kleurenparameters voor queryparameters na filter. -> ZIE name = color #}
+{% set colorParam = craft.app.request.getParam('color') %}
+{% set searchParam = craft.app.request.getParam('search') %}
+
+{# Als er een colorparameter is -> Producten filteren. #}
+{% if colorParam|length %}
+    {% set products = products.relatedTo({targetElement: colorParam}) %}
+{% endif %}
+
+{% if searchParam|length %}
+    {% set products = products.search.(searchParam) %}
+{% endif %}
+
+{# Kleuren inladen uit entries #}
+{% set colors = craft.entries.section('colors').all() %}
+
+{% set productEntries = products.all() %}
+
+{% block content %}
+
+{# FORMULIER met filter #}
+
+<form method="post" accept-charset="UTF-8">
+
+    <select name="color" id="color">
+        {% for color in colors %}
+            <option value="{{ color.id }}">{{ color.title}}</option>
+        {% endfor %}
+    </select>
+    <label for="search">Zoek een product</label>
+    <input type="text" name="search" id="search" >
+    <button type="submit" value="Submit">Filteren<button>
+</form>
+
+
+{% if productEntries|length > 0 %}
+    <section class="cards-wrapper bg-black">
+        {% for product in productEntries %}
+            {% include '_products/_product.twig' %}
+            {% endfor %}
+    </section>
+{% endif %}
+
+{# ADD CONTENT HERE - LIJST MET PRODUCTEN.. #}
+{% endblock %}

@@ -52,7 +52,7 @@ fieldLayouts:
           -
             elementCondition: null
             fieldUid: beb3fdc0-71d2-47a1-9e92-c6c0a0fd01ed # Titel
-            handle: pageTitle2
+            handle: subTitle1
             includeInCards: false
             instructions: null
             label: Ondertitel
